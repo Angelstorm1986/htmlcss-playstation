@@ -1,0 +1,13 @@
+/* colors:
+header-top sony: #000000
+header-bottom accedi: #363636
+Jumbotron e game acquista: #cd3d0f
+playstation5 info e playstation4 scopri: #2d64e6
+plus esplora: #d9dadc
+footer: #00439c
+colore testo sottotitoli: #a2a2a2 */
+/* Header */
+.header-top{
+    background: #000000;
+    width: 100%;
+}
