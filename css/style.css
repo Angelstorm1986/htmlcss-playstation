@@ -42,3 +42,12 @@ header{
     left: 50px;
     width: 50%;
 }
+#jumbotron h4{
+    padding: 10px 0;
+}
+.bg_btn_buy{
+    background: #cd3d0f;
+}
+.pr-img{
+    width: 100%;
+}
