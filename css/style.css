@@ -51,3 +51,37 @@ header{
 .pr-img{
     width: 100%;
 }
+.color_blue{
+    color: #2d64e6;
+    font-weight: bold;
+}
+.ps5_title{
+    padding-bottom: 10px;
+}
+.color_grey{
+    color: #a2a2a2;
+}
+.bg_btn_info{
+    background: #2d64e6;
+}
+#game{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#game div img{
+    width: 50%;
+}
+#game div{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    width: 50%;
+}
+#game h4{
+    padding: 10px 0;
+}
