@@ -70,3 +70,21 @@ header{
 .bg_btn_info{
     background: #2d64e6;
 }
+#plus{
+    background: #bebcbb;
+    margin: 50px 0;
+}
+.bg_btn_explore{
+    background: #d9dadc;
+}
+#now{
+    background: #161c3b;
+}
+.right_img img{
+    display: none;
+}
+@media screen and (min-width: 768px){
+    .right_img img{
+        display: block;
+    }
+}
