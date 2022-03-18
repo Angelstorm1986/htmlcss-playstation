@@ -37,6 +37,7 @@ header{
     background-size: cover;
 }
 #game{
+    height: 500px;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 .hero div img{
