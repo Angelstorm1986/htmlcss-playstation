@@ -32,6 +32,13 @@ header{
 .bg_btn_top:hover{
     background: var(--lightgrey);
 }
+.access{
+    padding: 1px;
+    border: 2px solid var(--white);
+}
+.access:hover{
+    border: 2px solid var(--lightgrey);
+}
 
 /* Main */
 #jumbotron{
@@ -58,15 +65,32 @@ header{
     bottom: 50px;
     left: 50px;
     width: 50%;
+    padding: 20px;
 }
 .hero h4{
     padding: 10px 0;
+}
+.buy{
+    width: 120px;
+    padding: 1px;
+    border: 2px solid transparent;
+}
+.buy:hover{
+    border: 2px solid var(--orange);
 }
 .bg_btn_buy{
     background: var(--orange);
 }
 .ps5_img{
     line-height: 180px;
+}
+.info{
+    width: 188.8px;
+    padding: 1px;
+    border: 2px solid transparent;
+}
+.info:hover{
+    border: 2px solid var(--lightblue);
 }
 .pr-img{
     width: 100%;
@@ -83,6 +107,14 @@ header{
 }
 .bd_bm:hover{
     border-bottom: 4px solid var(--lightblue);
+}
+.discover{
+    width: 120.6px;
+    padding: 1px;
+    border: 2px solid transparent;
+}
+.discover:hover{
+    border: 2px solid var(--lightblue);
 }
 #news{
     background: var(--lightblack);
@@ -111,6 +143,14 @@ header{
     background: var(--lightergrey);
     margin: 50px 0;
 }
+.explore{
+    width: 212px;
+    padding: 1px;
+    border: 2px solid transparent;
+}
+.explore:hover{
+    border: 2px solid var(--black);
+}
 .bg_btn_explore{
     background: var(--white);
 }
@@ -119,6 +159,14 @@ header{
 }
 .now_img{
     width: 50%;
+}
+.explore_now{
+    width: 202.9px;
+    padding: 1px;
+    border: 2px solid transparent;
+}
+.explore_now:hover{
+    border: 2px solid var(--white);
 }
 .right_img img{
     display: none;
@@ -137,7 +185,7 @@ ul li a{
     color: var(--white);
 }
 ul li a:hover{
-    color: var(--white);
+    color: var(--black);
 }
 @media screen and (min-width: 576px){
     .ps5_img:hover .pr-img{
